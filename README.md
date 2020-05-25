@@ -1,6 +1,6 @@
 # addnewfile README
 
-This is the README for your extension "addnewfile". After writing up a brief description, we recommend including the following sections.
+Add new files,folders to project - including files that start with a dot and create files for cqrs CRUD operations
 
 ## Features
 

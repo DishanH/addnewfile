@@ -2,10 +2,15 @@
 	"name": "addnewfile",
 	"displayName": "Add New File",
 	"description": "Add new files,folders to project - including files that start with a dot and create files for CQRS pattern basic CRUD operations",
-	"version": "0.0.1",
+	"version": "1.0.0",
+	"publisher": "dishanh",
 	"engines": {
 		"vscode": "^1.45.0"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/DishanH/addnewfile"
+	  },
 	"categories": [
 		"Other"
 	],
