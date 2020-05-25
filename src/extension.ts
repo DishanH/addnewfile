@@ -203,6 +203,7 @@ function GenerateFiles(filePath: string, fileName: string) {
       ? "." + filePath.replace(new RegExp("\\\\", "g"), ".")
       : ""
   );
+  namespaceName = namespaceName.replace(".src.", ".");
 
   csContent = csContent
     .replace(new RegExp("{itemname}", "g"), fileName_!.split(".")[0] || "")
