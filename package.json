@@ -10,13 +10,13 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:addnewfile.addnew"
+		"onCommand:extension.addnew"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "addnewfile.addnew",
+				"command": "extension.addnew",
 				"title": "Create new c# file"
 			}
 		]
